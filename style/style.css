@@ -107,6 +107,7 @@ body {
     margin-top: 20px;
     color: rgba(39, 39, 39, 0.60);
 
+
 }
 .Images{
    display:flex;
@@ -114,4 +115,31 @@ body {
    margin-left: 80px;
    gap: 25px;
 
+}
+.latest{
+    text-align: center;
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    width: 1440px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 80px;
+    /* display: flex; */
+
+}
+.latest-title{
+    padding-top: 150px;
+    gap: 10px;
+}
+.latest-head{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.latest-email{
+    margin-top: 20px;
+}
+.text-email{
+    font-size: 14px;
+    width: 500px;
+    height: 45px;
+    border-radius: 5px;
 }
