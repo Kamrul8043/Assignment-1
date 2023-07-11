@@ -7,6 +7,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* header section */
 .btn-primary {
     border-radius: 8px;
     background: #E55473;
@@ -55,6 +56,55 @@ body {
     height: 700px;
 }
 
+/* main section */
+.flower {
+    margin-top: 70px;
+    margin-left: 20px;
+    /* padding: 30px 30px 0px 150px; */
+    text-align: center;
+}
+.flower-head{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.Featured-image {
+    display: flex;
+
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    gap: 120px;
+
+}
+
+.first-image {
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 290px;
+    height: 390px;
+    padding: 110px 40px 40px 40px;
+
+}
+
+.two-image {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+    width: 290px;
+    height: 390px;
+    padding: 110px 40px 40px 40px;
+}
+
+.third-image {
+
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 290px;
+    height: 390px;
+    padding: 65px 40px 80px 40px;
+}
+
 .main-header {
     display: flex;
     background: rgba(229, 84, 115, 0.05);
@@ -66,6 +116,7 @@ body {
     width: 1400px;
     height: 500px;
     gap: 230px;
+
 
 
 }
@@ -110,14 +161,16 @@ body {
 
 
 }
-.Images{
-   display:flex;
-   margin-top: 40px;
-   margin-left: 80px;
-   gap: 25px;
+
+.Images {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 80px;
+    gap: 25px;
 
 }
-.latest{
+
+.latest {
     text-align: center;
     background-image: url("../Flower Asset/Rectangle 9.png");
     width: 1440px;
@@ -127,37 +180,44 @@ body {
     /* display: flex; */
 
 }
-.latest-title{
+
+.latest-title {
     padding-top: 150px;
     gap: 10px;
 }
-.latest-head{
+
+.latest-head {
     margin-bottom: 20px;
     font-size: 40px;
 }
-.latest-email{
+
+.latest-email {
     margin-top: 20px;
 }
-.text-email{
+
+.text-email {
     font-size: 14px;
     width: 500px;
     height: 45px;
     border-radius: 5px;
 }
-.footer{
+
+.footer {
     text-align: center;
     color: rgba(255, 255, 255, 0.90);
     background: #111010;
     width: 1530px;
     height: 400px;
     margin: 40px 40px;
-   
+
 }
-.footer-head{
+
+.footer-head {
     padding-top: 160px;
     margin-bottom: 20px;
 }
-.reserved{
+
+.reserved {
     color: rgba(255, 255, 255, 0.40);
     margin-top: 20px;
 }
