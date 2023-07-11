@@ -105,6 +105,10 @@ body {
     padding: 65px 40px 80px 40px;
 }
 
+.heading{
+    margin-left: 60px;
+    margin-top: 10px;
+}
 .main-header {
     display: flex;
     background: rgba(229, 84, 115, 0.05);
